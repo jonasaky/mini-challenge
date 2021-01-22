@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#title {
+  color: red;
+  transform: scale(4.5);
+  margin-top: 40px;
+}
+
+.pokeCard {
+  display: grid;
+  grid-template-rows: 25% 45% 30px;
+  grid-template-columns: 100%;
+  width: 300px;
+  border-radius: 7px;
+  background-color: lightgray;
+}
+
+.pokeCardTitle {
+  color: darkred;
+  grid-row-start: 1;
+}
+
+.pokeCardImg {
+  grid-row-start: 2;
+  grid-column: 1;
+}
+
+.pokeCardVideo {
+  grid-row-start: 3;
+  text-decoration: wavy;
+  color: darkred;
+}
+
+.pokeCardVideo:hover {
+  color: red;
+}
